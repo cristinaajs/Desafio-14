@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário</title>
+</head>
+<body>
+   <div id="container">
+    <h2>Cadastro Usuário</h2>
+    <form id="formulario">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome">Nome </label><input type="text" id="nome" name="nome">
+            </p>
+            <p>
+                <label for="sobrenome">Sobrenome </label><input type="text" id="sobrenome" name="sobrenome">
+            </p>
+            <p>
+                <label for="email">E-mail </label><input type="email" id="email" name="email">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label for="cep">CEP</label><input type="text" id="cep" name="cep"> 
+            </p>
+            <p>
+                <label for="rua">Rua </label><input type="text" id="rua" name="rua">
+            </p>
+            <p>
+                <label for="bairro">Bairro </label><input type="text" id="bairro" name="bairro">
+            </p>
+            <p>
+                <label for="cidade">Cidade </label><input type="text" id="cidade" name="cidade">
+            </p>
+            <p>
+                <label for="estado">Estado </label><input type="text" id="estado" name="estado">
+            </p>
+        </fieldset>
+        <button type="submit"> Enviar </button>
+    </form>
+   </div>
+
+    <script src="formulario.js"></script>
+
+</body>
+</html>
